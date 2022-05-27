@@ -20,6 +20,7 @@ import Financial from './pages/Charts/Financial';
 import ColorMapping from './pages/Charts/ColorMapping';
 import Pyramid from './pages/Charts/Pyramid';
 import Stacked from './pages/Charts/Stacked';
+import Line from './pages/Charts/Line';
 
 
 const App = () => {
@@ -68,7 +69,7 @@ const App = () => {
 
               
               {/*Charts*/}
-              <Route path='/line' element={<line />} />
+              <Route path='/line' element={<Line />} />
               <Route path='/area' element={<Area />} />
               <Route path='/bar' element={<Bar />} />
               <Route path='/pie' element={<Pie />} />
