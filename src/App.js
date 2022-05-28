@@ -21,10 +21,11 @@ import ColorMapping from './pages/Charts/ColorMapping';
 import Pyramid from './pages/Charts/Pyramid';
 import Stacked from './pages/Charts/Stacked';
 import Line from './pages/Charts/Line';
+import { useStateContext } from './context/ContextProvider';
 
 
 const App = () => {
-  const activeMenu = true
+  const {activeMenu} = useStateContext()
   return (
     <div>
       <Router>
