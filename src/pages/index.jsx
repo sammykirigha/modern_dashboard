@@ -3,7 +3,7 @@ export * from './ColorPicker'
 export * from './Customers'
 export * from './Ecommerce'
 export * from './Editor'
-export * from './Employee'
+export * from './Employees'
 export * from './Kanban'
 export * from './Orders'
 

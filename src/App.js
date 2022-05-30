@@ -7,8 +7,6 @@ import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import Ecommerce from './pages/Ecommerce';
 import Orders from './pages/Orders';
-import Employee from './pages/Employee';
-import Customers from './pages/Customers';
 import Kanban from './pages/Kanban';
 import Editor from './pages/Editor';
 import { Calender } from './pages';
@@ -22,6 +20,8 @@ import Pyramid from './pages/Charts/Pyramid';
 import Stacked from './pages/Charts/Stacked';
 import Line from './pages/Charts/Line';
 import { useStateContext } from './context/ContextProvider';
+import Employees from './pages/Employees';
+import Customers from './pages/Customers';
 
 
 const App = () => {
@@ -59,7 +59,7 @@ const App = () => {
               
               {/*Pages*/}
               <Route path='/orders' element={<Orders />} />
-              <Route path='/employess' element={<Employee />} />
+              <Route path='/employees' element={<Employees />} />
               <Route path='/customers' element={<Customers />} />
 
               {/*Apps*/}
